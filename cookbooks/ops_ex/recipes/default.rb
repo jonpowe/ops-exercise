@@ -1,1 +1,2 @@
-include_recipe "mysql::default"
+
+include_recipe 'mariadb::default'
