@@ -1,4 +1,4 @@
 
 source 'https://supermarket.chef.io'
-
+cookbook 'mariadb', path: '../mariadb'
 metadata
