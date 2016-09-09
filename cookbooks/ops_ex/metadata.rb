@@ -8,4 +8,4 @@ version          IO.read(File.join(File.dirname(__FILE__), 'VERSION')) rescue '0
 
 depends 'apt', '~> 2.9.2'
 depends 'firewall', '~> 2.4.0'
-depends 'mariadb'
+depends 'mariadb', '~> 0.3.1'
